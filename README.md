@@ -1,3 +1,6 @@
+![Giwa](resources/logo.png)
+
+
 # Giwa Node
 
 
