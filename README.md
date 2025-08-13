@@ -1,8 +1,8 @@
 # Giwa Node
 
+
 **Giwa** is a Ethereum Layer 2 network built on Optimism's [OP Stack](https://stack.optimism.io/).  
 This repository provides everything you need to run your own node on the Giwa network.
----
 
 ## 💡 Supported Networks
 
@@ -11,7 +11,6 @@ This repository provides everything you need to run your own node on the Giwa ne
 | Mainnet           | 🚧     |
 | Testnet (Sepolia) | ✅      |
 
----
 
 ## 🚀 Quick Start
 
@@ -40,7 +39,6 @@ This repository provides everything you need to run your own node on the Giwa ne
     docker compose down -v && rm -rf ./execution_data
     ```
 
----
 
 ## 🛠️ Configuration
 
@@ -72,14 +70,12 @@ Choose one of the following sync strategies depending on your preference.
 - **Use when:** You prefer replay‑based syncing and tighter control (e.g. L2 verifier).
 - **Trade‑offs:** Slower than snap; operationally simpler for controlled environments.
 
----
 
 ## 💽 Persisting Data
 
 By default, execution data is mounted to `{PROJECT_ROOT}/execution_data`.  
 To customize the mount path, set the `$EXECUTION_DATA_DIR` environment variable.
 
----
 
 ## ⚙️ Hardware Requirements
 
@@ -91,7 +87,6 @@ To customize the mount path, set the `$EXECUTION_DATA_DIR` environment variable.
 | RAM      | 16 GB         | 32+ GB      |
 | Disk     | 500 GB (NVMe) | 1+ TB       |
 
----
 
 ## 🙋 Troubleshooting
 
@@ -101,14 +96,12 @@ docker compose logs -f giwa-el
 docker compose logs -f giwa-cl
 ```
 
----
 
 ## 🛑 Disclaimer
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.  
 By running this node, you are responsible for your infrastructure, security, and compliance.
 
----
 
 ## 🌐 Join the Giwa Community
 
