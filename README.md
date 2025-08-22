@@ -86,8 +86,8 @@ To customize the mount path, set the `$EXECUTION_DATA_DIR` environment variable.
 
 | Resource | Minimum       | Recommended |
 |----------|---------------|-------------|
-| CPU      | 8 cores       | 16+ cores   |
-| RAM      | 16 GB         | 32+ GB      |
+| CPU      | 4 cores       | 8+ cores    |
+| RAM      | 8 GB          | 16+ GB      |
 | Disk     | 500 GB (NVMe) | 1+ TB       |
 
 
